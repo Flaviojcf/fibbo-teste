@@ -79,7 +79,7 @@ npm run dev
 ```
 Acesse a aplicação web
 ``` 
-http://localhost:8081/
+http://localhost:3031/
 ```
 
 🛠️ Created by [Flaviojcf](https://github.com/Flaviojcf)
