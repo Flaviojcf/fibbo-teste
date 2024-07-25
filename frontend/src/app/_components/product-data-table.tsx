@@ -231,7 +231,7 @@ export function ProductDataTable({ data: initialData }: ProductDataTableProps) {
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
-                    <AlertDialogCancel>Cancel</AlertDialogCancel>
+                    <AlertDialogCancel>Não</AlertDialogCancel>
                     <AlertDialogAction
                       onClick={() => handleDeleteProduct(product.id)}
                     >
@@ -289,7 +289,7 @@ export function ProductDataTable({ data: initialData }: ProductDataTableProps) {
                     </div>
                     <div className="grid grid-cols-4 items-center gap-4 max-sm:flex max-sm:flex-col max-sm:items-start">
                       <Label htmlFor="createdAt" className="text-right">
-                        Criado Em
+                        Criado em
                       </Label>
                       <Input
                         id="createdAt"
@@ -299,7 +299,7 @@ export function ProductDataTable({ data: initialData }: ProductDataTableProps) {
                     </div>
                     <div className="grid grid-cols-4 items-center gap-4 max-sm:flex max-sm:flex-col max-sm:items-start">
                       <Label htmlFor="updatedAt" className="text-right">
-                        Atualizado Em
+                        Atualizado em
                       </Label>
                       <Input
                         id="updatedAt"
