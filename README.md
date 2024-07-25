@@ -57,7 +57,7 @@ Acesse o swagger
 http://localhost:8081/swagger-ui/index.html
 ```
 
-## Rodando o frotend
+## Rodando o frontend
 
 Entre na pasta do serviço de frontend
 ``` 
